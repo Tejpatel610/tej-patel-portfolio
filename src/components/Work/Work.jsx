@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
+import { projects } from "../../constants";
 
 const Work = () => {
+  const [selectedProject, setSelectedProject] = useState(null);
+
+  const handleOpenModal = (project) => {
+    setSelectedProject(project);
+  };
+
+  const handleCloseModal = () => {
+    setSelectedProject(null);
+  };
+
   return (
     <section
       id="work"
       className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative"
     >
+      {/* Section Title */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">PROJECTS</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
