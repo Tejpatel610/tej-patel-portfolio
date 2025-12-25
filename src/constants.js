@@ -39,7 +39,7 @@ import gtu from './assets/education_logo/gtu.jpg';
 // Project Section Logo's
 import Projectlogo1 from './assets/work_logo/Projectlogo1.png';
 import more_projects from './assets/work_logo/more_projects.png';
-
+import projectlogo2 from './assets/work_logo/projectlogo2.png';
 
 export const SkillsInfo = [
   {
@@ -130,6 +130,16 @@ export const SkillsInfo = [
     },
     {
       id: 1,
+      title: "AI-Powered Chatbot",
+      description:
+        "AI-powered full-stack portfolio built with React (Vite + Tailwind) and a Flask backend, featuring a live AI chat assistant and resume analyzer that interact with real APIs for dynamic, personalized responses.",
+      image: projectlogo2,
+      tags: ["React JS", "Node JS", "flask", "API Integration"],
+       github: "https://github.com/Tejpatel610/tej-ai-portfolio",
+      webapp: "https://projectaichat.netlify.app/",
+    },
+    {
+      id: 2,
       // title: "Movie Recommendation App",
       description:
         "Working on more projects. Stay tuned for updates!",
