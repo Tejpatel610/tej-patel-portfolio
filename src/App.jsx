@@ -9,7 +9,7 @@ import BlurBlob from "./components/BlurBlob";
 
 const App = () => {
   const [mouse, setMouse] = useState({ x: 0, y: 0 });
-  
+
 
   return (
     <div
